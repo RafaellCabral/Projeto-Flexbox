@@ -1,0 +1,27 @@
+.flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex {
+    height: 100px;
+    width: 100px;
+    /* flex-grow: 1; */
+}
+
+.flex:nth-child(1) {
+    background-color: yellow;
+    /* flex-grow: 3; */
+}
+
+.flex:nth-child(2) {
+    background-color: blue;
+}
+
+.flex:nth-child(3) {
+    background-color: red;
+}
+
+.flex:nth-child(4) {
+    background-color: green;
+}
